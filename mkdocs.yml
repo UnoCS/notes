@@ -1,0 +1,50 @@
+site_name: Computer Science Learning Documents
+copyright: Copyright &copy; 2022 UnoCS
+repo_url: 
+repo_name: 
+edit_uri: ""
+theme:
+  name: material
+  language: zh
+  palette:
+    primary: grey
+  font:
+    text: Roboto
+  icon:
+    repo: fontawesome/brands/git-alt
+  features:
+    - instant
+    - tracking
+    - tabs
+    - sections
+    - expand
+    - top
+    - search.highlight
+    - search.share
+  plugins:
+    - search
+    - git-revision-date
+    - git-revision-date-localized
+markdown_extensions:
+  - pymdownx.details
+  - pymdownx.superfences
+  - admonition
+      
+nav:
+    - 主页: index.md
+    - 关于考试:
+        - 前言: about_exam/introduction.md
+    - Java基础:
+        - 前言: language_basic/introduction.md
+    - 程序设计和分析:
+        - 前言: program_design_and_analysis/introduction.md
+    - 面向对象:
+        - 前言: oop/introduction.md
+    - 标准类:
+        - 前言: standard_classes/introduction.md
+    - 数据结构:
+        - 前言: data_structure/introduction.md
+    - 算法:
+        - 前言: algorithms/introduction.md
+    - 实验室:
+        - 前言: labs/introduction.md
