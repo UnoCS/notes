@@ -1,7 +1,7 @@
-site_name: Computer Science Learning Documents
+site_name: Computer Science Notes
 copyright: Copyright &copy; 2022 UnoCS
-repo_url: 
-repo_name: 
+repo_url: https://github.com/UnoCS/notes
+repo_name: UnoCS/notes
 edit_uri: ""
 theme:
   name: material
@@ -29,7 +29,7 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - admonition
-      
+
 nav:
     - 主页: index.md
     - 关于考试:
