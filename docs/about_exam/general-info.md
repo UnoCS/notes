@@ -19,9 +19,9 @@
 
 规则：**每答对一题的1分，答错和空题均不扣分。**
 
-## 第二部分:  问答题(Free-response questions)
+## 第二部分:  代码题(Free-response questions)
 
-时间：60分钟
+时间：90分钟
 
 题目数量：4 (9 Points each)
 
