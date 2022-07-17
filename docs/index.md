@@ -1,17 +1,7 @@
-# Welcome...
+# Welcome
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+**AP (Advanced Placement)**为学生提供了在高中阶段参加大学水平的课程和考试的机会（先修课程），并在美国和世界各地的许多学院和大学获得大学学分、高级课程或两者兼得。
 
-## Commands
+**USACO(USA Computing Olympiad)**，即美国计算机奥林匹克竞赛。
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+本文档的内容将侧重于**AP Computer Science A**，其中涉及到**USACO**内容，会特别注明。

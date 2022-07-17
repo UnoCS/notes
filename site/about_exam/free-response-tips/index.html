@@ -15,7 +15,7 @@
     
     
       
-        <title>前言 - Computer Science Learning Documents</title>
+        <title>问答题 - Computer Science Learning Documents</title>
       
     
     
@@ -86,7 +86,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              前言
+              问答题
             
           </span>
         </div>
@@ -156,7 +156,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="./" class="md-tabs__link md-tabs__link--active">
+        <a href="../introduction/" class="md-tabs__link md-tabs__link--active">
           关于考试
         </a>
       
@@ -319,20 +319,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-    <a href="./" title="前言" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../introduction/" title="前言" class="md-nav__link">
       前言
     </a>
-    
   </li>
 
         
@@ -376,11 +367,56 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../free-response-tips/" title="问答题" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        问答题
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" title="问答题" class="md-nav__link md-nav__link--active">
       问答题
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    要求
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    知识点
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -684,6 +720,28 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    要求
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    知识点
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -698,9 +756,101 @@
                   
                 
                 
-                <h1 id="_1">前言</h1>
-<p>本章主要介绍了有关AP考试的一些基本信息。</p>
-<p>比如考题结构、考点、与AP CS原理的区别等。</p>
+                <h1 id="_1">问答题</h1>
+<h2 id="_2">要求</h2>
+<ol>
+<li>补全一个方法</li>
+<li>补全<code>class</code>的<code>constructor</code></li>
+<li>撰写一个完整的<code>class</code></li>
+</ol>
+<p>全部代码题均由人评审，因此需要保证代码的整洁和规范。</p>
+<p>越容易理解的答案越容易得分，但是<strong>无需写任何注释。</strong></p>
+<p>在答题前需要阅读<strong>Examples Table</strong>，确保代码符合要求。</p>
+<h2 id="_3">知识点</h2>
+<ol>
+<li>Methods &amp; Control Structures</li>
+</ol>
+<p>方法和控制结构（Conditional branches, Loops 和 Branching statements）</p>
+<ol>
+<li>
+<p>Class</p>
+</li>
+<li>
+<p>Array/Array List</p>
+</li>
+<li>
+<p>2D Array</p>
+</li>
+</ol>
+<p>涉及到代码的部分扣分规则（扣一分）：</p>
+<ul>
+<li>影响正常得分的无关代码</li>
+</ul>
+<p>如题目要求输出某个运算的结果，但是一些语句中途输出了无关内容，则扣分</p>
+<div class="highlight"><pre><span></span><code><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&quot;Calculating...&quot;</span><span class="p">);</span> <span class="c1">// 输出了无关内容</span>
+<span class="kt">int</span> <span class="n">answer</span> <span class="o">=</span> <span class="mi">1</span><span class="o">+</span><span class="mi">1</span><span class="p">;</span>
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">answer</span><span class="p">);</span>
+</code></pre></div>
+
+<ul>
+<li>使用了没有声明的Local variables</li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="kt">int</span> <span class="n">next</span> <span class="o">=</span> <span class="n">some_iter</span><span class="p">.</span><span class="na">next</span><span class="p">();</span> <span class="c1">// 使用了没有声明的some_iter</span>
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">next</span><span class="p">);</span>
+</code></pre></div>
+
+<ul>
+<li>变动了persistent data</li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="kt">void</span> <span class="nf">do_sth</span><span class="p">(</span><span class="n">Map</span> <span class="n">para</span><span class="p">)</span> <span class="p">{</span> <span class="c1">// 这里是引用传递</span>
+    <span class="n">para</span><span class="p">.</span><span class="na">put</span><span class="p">(</span><span class="mi">114514</span><span class="p">,</span> <span class="mi">1919810</span><span class="p">);</span> <span class="c1">// 修改了引用传递</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<ul>
+<li>定义了Void的方法（或Constructor）却返回了值</li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="kt">void</span> <span class="nf">do_sth</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="mi">114514</span><span class="p">;</span> <span class="c1">// 不应该返回任何值</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p>涉及到以下内容不会被扣分：</p>
+<ul>
+<li>
+<p>无关代码或死代码，但是不影响题目规则</p>
+</li>
+<li>
+<p>为Local variables添加了<code>private</code>限定</p>
+</li>
+<li>
+<p>没有为类或constructor添加<code>public</code>限定</p>
+</li>
+<li>
+<p>使用数学符号表示运算符（如÷，×）</p>
+</li>
+<li>
+<p>混淆<code>=</code>和<code>==</code></p>
+</li>
+<li>
+<p>使用了<code>[i,j]</code>而不是<code>[i][j]</code></p>
+</li>
+<li>
+<p>没有为无参数变量添加<code>()</code></p>
+</li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="kt">void</span> <span class="n">do_sth</span> <span class="p">{</span>
+    <span class="p">...</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<ul>
+<li>没有为<code>if/while</code>的条件句添加括号</li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="k">if</span> <span class="mi">1</span><span class="o">+</span><span class="mi">1</span><span class="o">==</span><span class="mi">2</span> <span class="p">{</span>
+    <span class="p">...</span>
+<span class="p">}</span>
+</code></pre></div>
                 
               
               
@@ -719,7 +869,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../.." title="主页" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../mcq-tips/" title="选择题" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -728,19 +878,19 @@
                 <span class="md-footer-nav__direction">
                   上一页
                 </span>
-                主页
+                选择题
               </div>
             </div>
           </a>
         
         
-          <a href="../general-info/" title="考试概要" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../java-quick-reference/" title="Java 速查" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   下一页
                 </span>
-                考试概要
+                Java 速查
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">

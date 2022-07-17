@@ -34,6 +34,11 @@ nav:
     - 主页: index.md
     - 关于考试:
         - 前言: about_exam/introduction.md
+        - 考试概要: about_exam/general-info.md
+        - CSA&CSP: about_exam/CSA-vs-CSP.md
+        - 选择题: about_exam/mcq-tips.md
+        - 问答题: about_exam/free-response-tips.md
+        - Java 速查: about_exam/java-quick-reference.md
     - Java基础:
         - 前言: language_basic/introduction.md
     - 程序设计和分析:
