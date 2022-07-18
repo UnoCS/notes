@@ -42,6 +42,7 @@ nav:
     - Java基础:
         - 前言: language_basics/introduction.md
         - Java语言特点: language_basics/features.md
+        - Java代码的基本元素: language_basics/elements.md
     - 程序设计和分析:
         - 前言: program_design_and_analysis/introduction.md
     - 面向对象:

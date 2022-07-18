@@ -31,16 +31,17 @@ Java的技术体系包括这几部分：
 这些内容往往以两种工具包提供：
 
 - Java Development Kit
-  - [x] JVM
-  - [x] Java API 类库
-  - [x] Java 开发工具（如编译器和调试分析工具）
-  - [x] Java 开发文档和例程
+  - JVM
+  - Java API 类库
+  - Java 开发工具（如编译器和调试分析工具）
+  - Java 开发文档和例程
 - Java Runtime Environment
-  - [x] JVM
-  - [x] Java API 基础类库
+  - JVM
+  - Java API 基础类库
 
 ## 主要特性
 
 - 解释型，动态类型
 - 面向对象
 - 高性能
+

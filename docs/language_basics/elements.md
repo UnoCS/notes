@@ -47,10 +47,25 @@ int a = 114514; /* Single line comment */
 
 - `Example`
 - `main`
-- `args`
+- `String`，`args`
 - `a`
 - `b`
 - `System`，`out`，`println`
 
 这些标识符的命名遵循如下的规则：
 
+1. 不能与关键字重名
+2. 只能由数字，字母，美元符号，下划线和大于0xC0的Unicode字符组成
+3. 第一个符号**不能是数字**
+4. 区分大小写
+
+这些标识符是合法的：
+
+- `中文`
+- `length`
+- `_length`
+- `$mixed`
+
+不合法的标识符会在编译阶段导致错误。
+
+## 3. 关键字
