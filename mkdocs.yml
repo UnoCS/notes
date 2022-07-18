@@ -45,13 +45,29 @@ nav:
         - Java代码的基本元素: language_basics/elements.md
     - 程序设计和分析:
         - 前言: program_design_and_analysis/introduction.md
+        - 软件开发的生命周期: program_design_and_analysis/software_dev_life_cycle.md
+        - OOP程序设计: program_design_and_analysis/oop_design.md
+        - 程序分析: program_design_and_analysis/program_analysis.md
     - 面向对象:
         - 前言: oop/introduction.md
+        - 类和对象: oop/class_and_object.md
+        - 继承和多态: oop/inheritance_and_polymorphism.md
     - 标准类:
         - 前言: standard_classes/introduction.md
+        - Object类: standard_classes/object_class.md
+        - String类: standard_classes/string_class.md
+        - 封装类: standard_classes/wrapper_classes.md
+        - Math类: standard_classes/math_class.md
     - 数据结构:
         - 前言: data_structure/introduction.md
+        - 列表: data_structure/array.md
     - 算法:
         - 前言: algorithms/introduction.md
+        - 排序: algorithms/sort.md
+        - 搜索: algorithms/search.md
+        - 递归: algorithms/recursion.md
     - 实验室:
         - 前言: labs/introduction.md
+        - Magpie实验室: labs/magpie_lab.md
+        - Elevens实验室: labs/elevens_lab.md
+        - Picture实验室: labs/picture_lab.md
