@@ -40,7 +40,8 @@ nav:
         - 问答题: about_exam/free-response-tips.md
         - Java 速查: about_exam/java-quick-reference.md
     - Java基础:
-        - 前言: language_basic/introduction.md
+        - 前言: language_basics/introduction.md
+        - Java语言特点: language_basics/features.md
     - 程序设计和分析:
         - 前言: program_design_and_analysis/introduction.md
     - 面向对象:
