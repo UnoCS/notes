@@ -1,9 +1,6 @@
 # Java 代码的基本元素
 
-```java
-/*
-An example
-*/
+```java title="An example"
 public class Example {
     public static void main(String args[]) {
         int a = 114514;
@@ -26,20 +23,22 @@ int a = 114514; /* Single line comment */
 
 注释内部的内容会被全部忽略
 
-> 不过鉴于Java会处理Unicode转义，所以这段代码：
->
-> ```java
-> int a = 114514; // \u000d a = 1919810;
-> System.out.println(a);
-> ```
->
-> 在javac的视角下是这样的：
->
-> ```java
-> int a = 114514; // 
-> a = 1919810;
-> System.out.println(a);
-> ```
+!!! note
+
+    不过鉴于Java会处理Unicode转义，所以这段代码：
+    
+    ```java
+    int a = 114514; // \u000d a = 1919810;
+    System.out.println(a);
+    ```
+    
+    在javac的视角下是这样的：
+    
+    ```java
+    int a = 114514; // 
+    a = 1919810;
+    System.out.println(a);
+    ```
 
 ## 2. 标识符 Identifiers
 
