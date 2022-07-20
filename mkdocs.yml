@@ -43,6 +43,11 @@ nav:
         - 前言: language_basics/introduction.md
         - Java语言特点: language_basics/features.md
         - Java代码的基本元素: language_basics/elements.md
+        - 变量和常量: language_basics/variables.md
+        - 数据类型: language_basics/data_types.md
+        - 类和对象: language_basics/classes_and_objects.md
+        - 流程控制: language_basics/flow_controls.md
+        - 错误: language_basics/errors.md
     - 程序设计和分析:
         - 前言: program_design_and_analysis/introduction.md
         - 软件开发的生命周期: program_design_and_analysis/software_dev_life_cycle.md
